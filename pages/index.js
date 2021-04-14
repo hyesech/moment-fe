@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { gql } from "@apollo/client";
+import client from "../src/apollo";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
